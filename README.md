@@ -10,7 +10,7 @@ React-Minions helps React Native beginners to become next-level beginners.
 Many years of application development leads few basic UI building blocks
 is applicable for all kind of UI applications, Such as
 
->  ### UI Building Blocks
+>  ### UI Building Blocks (ALPHA-MINIONS)
 	1. Navigation
 	2. View
 	3. Widget
