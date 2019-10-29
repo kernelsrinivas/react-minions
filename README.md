@@ -1,4 +1,4 @@
-![Image of React-Minions](https://octodex.github.com/images/yaktocat.png)
+![Image of React-Minions](https://github.com/kernelsrinivas/react-minions/blob/dev/docs/assets/imgs/banner.jpg)
 
 # React-Minions
 
