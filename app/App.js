@@ -8,19 +8,16 @@
 
 import React from 'react';
 import {
-  View,
-  Text,
   StatusBar,
 } from 'react-native';
+import Navigation from './Navigation';
 
 export default class App extends React.PureComponent {
   render() {
     return (
       <React.Fragment>
-        <StatusBar barStyle="dark-content" />
-        <View>
-          <Text>React Minions</Text>
-        </View>
+        <StatusBar backgroundColor="transparent" barStyle="light-content" />
+        <Navigation/>
       </React.Fragment>
     );
   }
