@@ -6,12 +6,18 @@
  */
 
 module.exports = {
-  transformer: {
-    getTransformOptions: async () => ({
-      transform: {
-        experimentalImportSupport: false,
-        inlineRequires: false,
-      },
-    }),
-  },
+    transformer: {
+        //babelTransformerPath: require.resolve('react-native-typescript-transformer'),
+        // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+        getTransformOptions: async () => ({
+            transform: {
+                experimentalImportSupport: false,
+                inlineRequires: false,
+                resetCache: true
+            }
+        })
+    },
+    resolver: {
+        sourceExts: ["jsx", "js", "ts", "tsx"]
+    }
 };
