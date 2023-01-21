@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 
 const AppRoute = (): JSX.Element => {
   return (
-    <View>
+    <View style={{flex:1}}>
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
           <Stack.Screen name="Home" component={HomePage} />
