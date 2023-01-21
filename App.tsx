@@ -15,15 +15,14 @@ import {
   View,
 } from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import AppRoute from './src/app-route/AppRoute.index';
 
 class App extends React.Component {
   render(): JSX.Element {
     return (
       <SafeAreaProvider>
         <SafeAreaView style={{flex: 1}}>
-          <View>
-            <Text>Hello,World</Text>
-          </View>
+          <AppRoute/>
         </SafeAreaView>
       </SafeAreaProvider>
     );
