@@ -4,22 +4,31 @@
         "label":"Function",
         "listPageId":100,
         "detailPageId":101,
-        "listColor":""
+        "listColor":"#f7df1e",
+        "textColor": "#00000"
     },{
         "label":"Data Type",
         "listPageId":200,
-        "detailPageId":201
+        "detailPageId":201,
+        "listColor":"#f7e23e",
+        "textColor": "#00000"
     },{
         "label":"Object",
         "listPageId":300,
-        "detailPageId":301
+        "detailPageId":301,
+        "listColor":"#f7e65e",
+        "textColor": "#00000"
     },{
         "label":"Array",
         "listPageId":400,
-        "detailPageId":401
+        "detailPageId":401,
+        "listColor":"#f7e97e",
+        "textColor": "#00000"
     },{
         "label":"Operator",
         "listPageId":500,
-        "detailPageId":501
+        "detailPageId":501,
+        "listColor":"#f7ed9e",
+        "textColor": "#00000"
     }]
 }]
