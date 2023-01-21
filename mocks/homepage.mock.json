@@ -1,34 +1,133 @@
 [{
-    "listTitle": "Before Hooks",
+    "title": "Before Hooks",
     "data":[{
         "label":"Function",
         "listPageId":100,
         "detailPageId":101,
         "listColor":"#f7df1e",
-        "textColor": "#00000"
+        "textColor": "#000000"
     },{
         "label":"Data Type",
-        "listPageId":200,
-        "detailPageId":201,
+        "listPageId":100,
+        "detailPageId":102,
         "listColor":"#f7e23e",
-        "textColor": "#00000"
+        "textColor": "#000000"
     },{
         "label":"Object",
-        "listPageId":300,
-        "detailPageId":301,
+        "listPageId":100,
+        "detailPageId":103,
         "listColor":"#f7e65e",
-        "textColor": "#00000"
+        "textColor": "#000000"
     },{
         "label":"Array",
-        "listPageId":400,
-        "detailPageId":401,
+        "listPageId":100,
+        "detailPageId":104,
         "listColor":"#f7e97e",
-        "textColor": "#00000"
+        "textColor": "#000000"
     },{
         "label":"Operator",
-        "listPageId":500,
-        "detailPageId":501,
+        "listPageId":100,
+        "detailPageId":105,
         "listColor":"#f7ed9e",
-        "textColor": "#00000"
+        "textColor": "#000000"
+    }]
+},{
+    "title": "Base Hooks",
+    "data":[{
+        "label":"useState",
+        "listPageId":200,
+        "detailPageId":201,
+        "listColor":"#A6C1C7",
+        "textColor": "#ffffff"
+    },{
+        "label":"useEffect",
+        "listPageId":200,
+        "detailPageId":202,
+        "listColor":"#A6C1C7",
+        "textColor": "#ffffff"
+    },{
+        "label":"useCallback",
+        "listPageId":200,
+        "detailPageId":203,
+        "listColor":"#A6B7C7",
+        "textColor": "#ffffff"
+    },{
+        "label":"useMemo",
+        "listPageId":200,
+        "detailPageId":204,
+        "listColor":"#A6B7C7",
+        "textColor": "#ffffff"
+    },{
+        "label":"useRef",
+        "listPageId":200,
+        "detailPageId":205,
+        "listColor":"#A6A6C7",
+        "textColor": "#ffffff"
+    },{
+        "label":"useContext",
+        "listPageId":200,
+        "detailPageId":206,
+        "listColor":"#A6A6C7",
+        "textColor": "#ffffff"
+    }]
+},{
+    "title": "More Hooks",
+    "data":[{
+        "label":"useLayoutEffect",
+        "listPageId":300,
+        "detailPageId":301,
+        "listColor":"#BCA6C7",
+        "textColor": "#ffffff"
+    },{
+        "label":"useReducer",
+        "listPageId":300,
+        "detailPageId":302,
+        "listColor":"#C7A6AC",
+        "textColor": "#ffffff"
+    },{
+        "label":"useImperativeHandle",
+        "listPageId":300,
+        "detailPageId":303,
+        "listColor":"#C7B0A6",
+        "textColor": "#ffffff"
+    },{
+        "label":"useTransition",
+        "listPageId":300,
+        "detailPageId":304,
+        "listColor":"#C7C1A6",
+        "textColor": "#ffffff"
+    }]
+},{
+    "title": "Miscellaneous Hooks",
+    "data":[{
+        "label":"useId",
+        "listPageId":400,
+        "detailPageId":401,
+        "listColor":"#BAAA54",
+        "textColor": "#ffffff"
+    },{
+        "label":"useDebugValue",
+        "listPageId":400,
+        "detailPageId":402,
+        "listColor":"#A6AF6E",
+        "textColor": "#ffffff"
+    },{
+        "label":"useDefferedValue",
+        "listPageId":400,
+        "detailPageId":403,
+        "listColor":"#7FAF6E",
+        "textColor": "#ffffff"
+    },{
+        "label":"useSyncExternalStore",
+        "listPageId":400,
+        "detailPageId":404,
+        "listColor":"#6EAF8C",
+        "textColor": "#ffffff"
+    },{
+        "label":"useInsertionEffect",
+        "listPageId":400,
+        "detailPageId":405,
+        "listColor":"#6EABAF",
+        "textColor": "#ffffff"
     }]
 }]
