@@ -4,32 +4,31 @@
     "listPageId": 100,
     "data": [
       {
-        "label": "Function",
+        "label": "Data Type",
         "detailPageId": 101,
         "listColor": "#f7df1e",
         "textColor": "#000000"
       },
       {
-        "label": "Data Type",
+        "label": "Operator",
         "detailPageId": 102,
         "listColor": "#f7e23e",
         "textColor": "#000000"
       },
       {
-        "label": "Object",
+        "label": "Control Flow",
         "detailPageId": 103,
         "listColor": "#f7e65e",
         "textColor": "#000000"
       },
       {
-        "label": "Array",
+        "label": "Function",
         "detailPageId": 104,
         "listColor": "#f7e97e",
         "textColor": "#000000"
       },
       {
-        "label": "Operator",
-        "listPageId": 100,
+        "label": "Event Handling",
         "detailPageId": 105,
         "listColor": "#f7ed9e",
         "textColor": "#000000"
