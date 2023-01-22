@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Builder pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of complex objects with a step-by-step process."
+  },
+  {
+    "name": "Facade pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a simplified interface to a complex system."
+  },
+  {
+    "name": "Bridge pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the separation of an object's interface from its implementation."
+  },
+  {
+    "name": "Chain of Responsibility pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a chain of objects that can handle a request, with the option to pass the request to the next object in the chain."
+  },
+  {
+    "name": "Interpreter pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a language or notation for a particular domain."
+  },
+  {
+    "name": "Template Method pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a skeleton algorithm in a base class, with the option to override certain steps in derived classes."
+  },
+  {
+    "name": "Flyweight pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the efficient use of memory by sharing objects that are identical."
+  },
+  {
+    "name": "Memento pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that can save and restore the previous state of an object."
+  },
+  {
+    "name": "Proxy pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of an object that controls access to another object."
+  },
+  {
+    "name": "Composite pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that can be treated as a single object or a collection of objects."
+  },
+  {
+    "name": "Module pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of private and public methods and variables within a single object, keeping the global scope clean."
+  },
+  {
+    "name": "Singleton pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a single, shared instance of an object, ensuring that only one instance of a particular class exists in a system."
+  },
+  {
+    "name": "Observer pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that can be observed by other objects, allowing for updates and changes to be communicated throughout the system."
+  },
+  {
+    "name": "Factory pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects without specifying the exact class of object that will be created."
+  },
+  {
+    "name": "Decorator pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the modification of an object's behavior by wrapping it with another object."
+  },
+  {
+    "name": "Command pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that encapsulate a command, which can be executed at a later time."
+  },
+  {
+    "name": "Protoclassification pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of new objects by copying an existing object."
+  },
+  {
+    "name": "Mediator pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that act as a mediator between other objects, controlling and coordinating communication between them."
+  },
+  {
+    "name": "State pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that change their behavior based on their internal state."
+  },
+  {
+    "name": "Adapter pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that adapt one interface to be used with another."
+  }
+]

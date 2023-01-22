@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Function Declarations",
+    "classification": "Function Type",
+    "description": "These are defined using the 'function' keyword followed by the function name, and are hoisted to the top of their scope."
+  },
+  {
+    "name": "Function Expressions",
+    "classification": "Function Type",
+    "description": "These are defined using a variable assignment and are not hoisted."
+  },
+  {
+    "name": "Arrow Functions",
+    "classification": "Function Type",
+    "description": "A shorthand syntax for defining functions, introduced in ECMAScript 6."
+  },
+  {
+    "name": "Generator Functions",
+    "classification": "Function Type",
+    "description": "JavaScript functions that can be paused and resumed using the 'yield' keyword."
+  },
+  {
+    "name": "Async Functions",
+    "classification": "Function Type",
+    "description": "JavaScript functions that can run asynchronously using the 'await' keyword."
+  },
+  {
+    "name": "Recursive Function",
+    "classification": "Function Type",
+    "description": "JavaScript function that call itself"
+  },
+  {
+    "name": "Callback Function",
+    "classification": "Function Type",
+    "description": "JavaScript function that passed as an argument to another function, which will call the passed function."
+  },
+  {
+    "name": "Pure functions",
+    "classification": "Function Type",
+    "description": "These are functions that always return the same output for a given input and do not cause any side-effects."
+  },
+  {
+    "name": "Higher-order functions",
+    "classification": "Function Type",
+    "description": "These are functions that take one or more functions as input and/or return a function as output."
+  },
+  {
+    "name": "Anonymous functions",
+    "classification": "Function Type",
+    "description": "These are functions without a name, often used as arguments to higher-order functions or as closures."
+  },
+  {
+    "name": "Curried functions",
+    "classification": "Function Type",
+    "description": "These are functions that can be called with fewer arguments than they are defined with, returning a new function that takes the remaining arguments."
+  },
+  {
+    "name": "Composition functions",
+    "classification": "Function Type",
+    "description": "These are functions that combined multiple functions to perform a specific task."
+  },
+  {
+    "name": "Recursive functions",
+    "classification": "Function Type",
+    "description": "These are functions that call themselves, allowing for a more compact and elegant solution to certain classifications of problems."
+  },
+  {
+    "name": "Memoization",
+    "classification": "Function Type",
+    "description": "These are functions that remember the results of previous function calls and return the cached results instead of re-computing them."
+  },
+  {
+    "name": "Lazy evaluation",
+    "classification": "Function Type",
+    "description": "These are functions that delay the evaluation of an expression until it's needed."
+  },
+  {
+    "name": "Partial application",
+    "classification": "Function Type",
+    "description": "These are functions that fix some of the arguments of a function, returning a new function with fewer arguments."
+  },
+  {
+    "name": "Point-free style",
+    "classification": "Function Type",
+    "description": "These are functions that are defined without explicitly referencing the arguments they take in."
+  },
+  {
+    "name": "Functor",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'map' function and can be used with higher-order functions like 'map', 'filter', 'reduce'."
+  },
+  {
+    "name": "Monad",
+    "classification": "Function Type",
+    "description": "These are objects that implement 'map' and 'flatMap' functions and can be used for sequencing and chaining of computation."
+  },
+  {
+    "name": "Transducer",
+    "classification": "Function Type",
+    "description": "These are functions that can be composed with 'map', 'filter', 'reduce' to perform complex data transformation."
+  },
+  {
+    "name": "Continuation-passing style (CPS)",
+    "classification": "Function Type",
+    "description": "These are functions that take a callback  function as an argument and call it with their result, allowing for more control over the flow of execution."
+  },
+  {
+    "name": "Monoid",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'concat' function and an identity value, and can be used for combining and reducing collections of data."
+  },
+  {
+    "name": "Semigroup",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'concat' function, but don't have an identity value."
+  },
+  {
+    "name": "Foldable",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'fold' function and can be used for reducing collections of data."
+  },
+  {
+    "name": "Traversable",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'traverse' function and can be used for traversing and mapping over nested data structures."
+  },
+  {
+    "name": "Comonad",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'extract' and 'duplicate' function and can be used for extracting and duplicating data in a context."
+  },
+  {
+    "name": "Endofunctor",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'map' function and preserve the structure of the original data while applying a transformation."
+  },
+  {
+    "name": "Natural Transformation",
+    "classification": "Function Type",
+    "description": "These are functions that preserve the structure of the original data while applying a transformation between two functors."
+  },
+  {
+    "name": "Co-/Contra-variant Functor",
+    "classification": "Function Type",
+    "description": "These are functors that have different behavior depending on whether the transformation is covariant or contravariant."
+  },
+  {
+    "name": "Category",
+    "classification": "Function Type",
+    "description": "These are mathematical structures that consist of objects and morphisms between them, with certain properties like composition and identity."
+  }
+]

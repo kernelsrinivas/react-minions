@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Sorting Algorithms",
+    "description": "Algorithms used to rearrange elements in a collection into a specific order, such as Bubble sort, quicksort, mergesort, etc.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Searching Algorithms",
+    "description": "Algorithms used to locate specific elements in a collection, such as linear search, binary search, etc.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Recursion Algorithms",
+    "description": "A technique where a function calls itself to solve a problem, often used for traversing data structures like trees and graphs.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Dynamic Programming Algorithms",
+    "description": "A technique where a problem is broken down into smaller subproblems, and the solutions to these subproblems are cached to avoid redundant computation.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Divide and Conquer Algorithms",
+    "description": "A technique where a problem is broken down into smaller subproblems, and the solutions to these subproblems are combined to solve the original problem.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Greedy Algorithms",
+    "description": "A technique where a problem is solved by making locally optimal choices at each step, with the hope of finding a globally optimal solution.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Backtracking Algorithms",
+    "description": "A technique where a problem is solved by trying different solutions and undoing invalid choices, often used for problems like permutations, combinations, and puzzles.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Breadth-First Search (BFS) Algorithms",
+    "description": "An algorithm that explores all the nodes in a graph or tree by visiting all the siblings before visiting children, used for finding the shortest path.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "Depth-First Search (DFS) Algorithms",
+    "description": "An algorithm that explores all the nodes in a graph or tree by visiting children before visiting siblings, used for finding a path or a cycle.",
+    "classification":"Algorithms"
+  },
+  {
+    "name": "A* Algorithm",
+    "description": "A search algorithm that uses a heuristic function to estimate the cost of reaching the goal state, used for finding the shortest path in a graph or map.",
+    "classification":""
+  },
+  {
+    "name": "Bubble Sort",
+    "description": "A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.",
+    "classification": "Exchange Sort"
+  },
+  {
+    "name": "Selection Sort",
+    "description": "A simple sorting algorithm that repeatedly finds the minimum element from unsorted part and puts it at the beginning.",
+    "classification": "Selection Sort"
+  },
+  {
+    "name": "Insertion Sort",
+    "description": "A simple sorting algorithm that builds the final sorted array (or list) one item at a time.",
+    "classification": "Insertion Sort"
+  },
+  {
+    "name": "Quick Sort",
+    "description": "A divide and conquer algorithm that selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.",
+    "classification": "Divide and Conquer Sort"
+  },
+  {
+    "name": "Merge Sort",
+    "description": "A divide and conquer algorithm that divides an array into two halves, sorts the two halves independently, and then merges the sorted halves back together.",
+    "classification": "Divide and Conquer Sort"
+  },
+  {
+    "name": "Heap Sort",
+    "description": "A comparison-based sorting algorithm that builds a heap from the array and then repeatedly extracts the maximum element from the heap and places it at the end of the sorted array.",
+    "classification": "Comparison Sort"
+  },
+  {
+    "name": "Radix Sort",
+    "description": "A non-comparison based sorting algorithm that sorts data with integer keys by grouping keys by the individual digits which share the same significant position and value",
+    "classification": "Integer Sort"
+  },
+  {
+    "name": "Bucket Sort",
+    "description": "A sorting algorithm that distributes elements into a number of buckets, and then sort these buckets individually, either using a different sorting algorithm or by recursively applying the bucket sorting algorithm.",
+    "classification": "Distribution Sort"
+  },
+  {
+    "name": "Counting Sort",
+    "description": "A non-comparison based sorting algorithm that sorts data with integer keys by counting the number of occurrences of each key and then creating an output array.",
+    "classification": "Integer Sort"
+  },
+  {
+    "name": "Tim Sort",
+    "description": "A hybrid sorting algorithm that combines Insertion Sort and Merge Sort to efficiently sort large data sets.",
+    "classification": "Hybrid Sort"
+  },
+  {
+    "name": "Shell Sort",
+    "description": "An in-place comparison-based sorting algorithm that improves the efficiency of Insertion Sort by comparing elements that are far apart, rather than adjacent.",
+    "classification": "Comparison Sort"
+  },
+  {
+    "name": "Pigeonhole Sort",
+    "description": "A non-comparison based sorting algorithm that sorts data with a small range of integers by putting each element into a pigeonhole corresponding to its value.",
+    "classification": "Integer Sort"
+  },
+  {
+    "name": "Cocktail Sort",
+    "description": "A variation of Bubble sort that repeatedly moves the largest element to the end of the array and the smallest element to the beginning.",
+    "classification": "Exchange Sort"
+  },
+  {
+    "name": "Gnome Sort",
+    "description": "A simple sorting algorithm that compares each element to its previous element and swaps them if they are in the wrong order.",
+    "classification": "Insertion Sort"
+  },
+  {
+    "name": "Cycle Sort",
+    "description": "An in-place and stable sorting algorithm that repeatedly selects the next element to be sorted and places it at its correct position.",
+    "classification": "Exchange Sort"
+  },
+  {
+    "name": "Linear Search",
+    "description": "A simple searching algorithm that sequentially checks each element of the list until a match is found.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Binary Search",
+    "description": "A divide and conquer searching algorithm that repeatedly divides the list in half until a match is found.",
+    "classification": "Divide and Conquer Searching Algorithm"
+  },
+  {
+    "name": "Jump Search",
+    "description": "A linear time searching algorithm that improves on linear search by jumping ahead a fixed number of steps before checking each element.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Interpolation Search",
+    "description": "A searching algorithm that uses the value of the target element to estimate its position in the list and narrow down the search.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Exponential Search",
+    "description": "A searching algorithm that combines the advantages of both binary search and linear search by first checking the range where the target element is likely to be and then using binary search to find the target.",
+    "classification": "Hybrid Searching Algorithm"
+  },
+  {
+    "name": "Ternary Search",
+    "description": "A divide and conquer searching algorithm that repeatedly divides the list into three parts and checks if the target element is in the middle or the left or the right part.",
+    "classification": "Divide and Conquer Searching Algorithm"
+  },
+  {
+    "name": "Fibonacci Search",
+    "description": "A searching algorithm that uses the Fibonacci series to narrow down the search by eliminating elements that are not likely to contain the target element.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Factorial",
+    "description": "A recursion algorithm that finds the factorial of a given number, typically represented as n!",
+    "classification": "Mathematical Algorithm"
+  },
+  {
+    "name": "Fibonacci Series",
+    "description": "A recursion algorithm that generates the Fibonacci series, typically represented as 0,1,1,2,3,5,8,13,...",
+    "classification": "Mathematical Algorithm"
+  },
+  {
+    "name": "Tower of Hanoi",
+    "description": "A recursion algorithm that solves the problem of moving a set of disks between three rods, with the constraint that a larger disk can never be placed on top of a smaller disk.",
+    "classification": "Problem Solving Algorithm"
+  },
+  {
+    "name": "Binary Search",
+    "description": "A divide and conquer algorithm that repeatedly divides the list in half until the target element is found",
+    "classification": "Searching Algorithm"
+  },
+  {
+    "name": "Backtracking",
+    "description": "A recursion algorithm that explores all possible solutions by incrementally building up a solution and then undoing the last step if the solution is not valid.",
+    "classification": "Problem Solving Algorithm"
+  },
+  {
+    "name": "Divide and Conquer",
+    "description": "A recursion algorithm that breaks down a problem into smaller sub-problems and solves them independently before combining the solutions to the sub-problems to solve the original problem.",
+    "classification": "Problem Solving Algorithm"
+  },
+  {
+    "name": "Memoization",
+    "description": "A recursion algorithm that uses a cache to store the results of previous function calls, so that if the function is called again with the same inputs, the cached result can be returned instead of re-computing the result.",
+    "classification": "Optimization Technique"
+  },
+  {
+    "name": "Fibonacci Series",
+    "description": "An algorithm that uses dynamic programming to efficiently calculate the n-th Fibonacci number by storing the results of previous calculations in an array and using them to calculate the next number.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Longest Common Subsequence",
+    "description": "An algorithm that uses dynamic programming to find the longest common subsequence of two or more strings by breaking the problem down into smaller sub-problems and storing the results in a matrix.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Knapsack Problem",
+    "description": "An algorithm that uses dynamic programming to find the most valuable set of items that can be included in a knapsack of limited capacity by breaking the problem down into smaller sub-problems and storing the results in a table.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Edit Distance",
+    "description": "An algorithm that uses dynamic programming to find the minimum number of operations required to transform one string into another by breaking the problem down into smaller sub-problems and storing the results in a matrix.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Bellman-Ford Algorithm",
+    "description": "An algorithm that uses dynamic programming to find the shortest path between a source vertex and all other vertices in a graph by relaxing the edges of the graph and storing the results in an array.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Floyd Warshall Algorithm",
+    "description": "An algorithm that uses dynamic programming to find the shortest path between all pairs of vertices in a graph by breaking the problem down into smaller sub-problems and storing the results in a matrix.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Merge Sort",
+    "description": "A sorting algorithm that divides an array into two halves, sorts the two halves independently, and then merges the sorted halves back together.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Quick Sort",
+    "description": "A sorting algorithm that selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Binary Search",
+    "description": "A searching algorithm that repeatedly divides the list in half until the target element is found.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Karatsuba Multiplication",
+    "description": "An algorithm for multiplying two large integers that divides the problem into smaller sub-problems and recursively solves them before combining the solutions.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Strassen's Matrix Multiplication",
+    "description": "An algorithm for multiplying two matrices that divides the problem into smaller sub-problems and recursively solves them before combining the solutions.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Closest Pair of Points",
+    "description": "An algorithm that finds the closest pair of points in a set of points by dividing the problem into smaller sub-problems and recursively solving them before combining the solutions.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Kruskal's Algorithm",
+    "description": "A greedy algorithm that finds the minimum spanning tree of a graph by selecting the edges with the lowest weight and ensuring that they do not form a cycle.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Prim's Algorithm",
+    "description": "A greedy algorithm that finds the minimum spanning tree of a graph by starting with an arbitrary vertex and repeatedly selecting the edge with the lowest weight that connects the tree to a vertex not in the tree.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Huffman Coding",
+    "description": "A greedy algorithm that constructs a prefix code for a set of symbols with varying frequencies by repeatedly combining the symbols with the lowest frequencies and giving them a shorter code.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Dijkstra's Algorithm",
+    "description": "A greedy algorithm that finds the shortest path between a source vertex and all other vertices in a graph by repeatedly selecting the vertex with the lowest distance from the source.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Knapsack Problem",
+    "description": "A greedy algorithm that finds the most valuable set of items that can be included in a knapsack of limited capacity by repeatedly selecting the item with the highest value-to-weight ratio.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Activity Selection Problem",
+    "description": "A greedy algorithm that finds the maximum number of non-overlapping activities that can be scheduled by repeatedly selecting the activity with the earliest finishing time.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "N-Queens Problem",
+    "description": "A backtracking algorithm that finds all possible ways to place n queens on a chessboard of size nxn such that no two queens attack each other.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Sudoku Solver",
+    "description": "A backtracking algorithm that solves a Sudoku puzzle by incrementally filling in the squares of the puzzle and undoing the last step if a solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Maze Solver",
+    "description": "A backtracking algorithm that finds a path through a maze by incrementally moving through the maze and undoing the last step if a solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Permutation and Combination",
+    "description": "A backtracking algorithm that generates all possible permutations and combinations of a given set of elements by incrementally building up a solution and undoing the last step if the solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Subset Sum Problem",
+    "description": "A backtracking algorithm that finds all subsets of a given set of numbers that add up to a given sum by incrementally building up a solution and undoing the last step if the solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Knapsack Problem",
+    "description": "A backtracking algorithm that finds all possible ways to include a given set of items in a knapsack of limited capacity by incrementally building up a solution and undoing the last step if the solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "BFS Traversal",
+    "description": "A BFS algorithm that visits all the nodes of a graph or tree by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Shortest Path",
+    "description": "A BFS algorithm that finds the shortest path between two nodes in a graph by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Maze Solver",
+    "description": "A BFS algorithm that finds a path through a maze by exploring the neighbor cells first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Bipartite Detection",
+    "description": "A BFS algorithm that checks whether a given graph is bipartite by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Peer to Peer Networking",
+    "description": "A BFS algorithm that finds all the reachable nodes in a peer-to-peer network by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Web Crawler",
+    "description": "A BFS algorithm that crawls the web by exploring the neighbor pages first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "DFS Traversal",
+    "description": "A DFS algorithm that visits all the nodes of a graph or tree by recursively exploring each branch as deeply as possible before backtracking.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Topological Sort",
+    "description": "A DFS algorithm that sorts the nodes of a directed acyclic graph by recursively visiting each node and marking it as complete only after all its dependencies have been visited.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Connected Components",
+    "description": "A DFS algorithm that finds all the connected components of an undirected graph by recursively visiting each unvisited node and marking all its reachable nodes as part of the same component.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Cycle Detection",
+    "description": "A DFS algorithm that checks whether a given graph contains a cycle by recursively visiting each node and marking it as visited and then checking if it has been visited again while traversing the graph.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Maze Solver",
+    "description": "A DFS algorithm that finds a path through a maze by recursively exploring each branch as deeply as possible before backtracking.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Sudoku Solver",
+    "description": "A DFS algorithm that solves a Sudoku puzzle by recursively exploring each empty cell and trying out different values before backtracking when a solution is not valid.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "A* Pathfinding",
+    "description": "An algorithm that finds the shortest path between two points in a grid-based environment by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Maze Solver",
+    "description": "An algorithm that finds the shortest path through a maze by combining Dijkstra's algorithm with a heuristic function that estimates the distance to the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Game AI",
+    "description": "An algorithm that provides a game AI with the ability to find the optimal path to a goal by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Map Routing",
+    "description": "An algorithm that finds the optimal route between two points on a map by combining Dijkstra's algorithm with a heuristic function that estimates the distance to the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Robotics Path Planning",
+    "description": "An algorithm that finds the optimal path for a robot to navigate to a goal by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Search",
+    "description": "An algorithm that finds the shortest path from a start node to a goal node by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  }
+]

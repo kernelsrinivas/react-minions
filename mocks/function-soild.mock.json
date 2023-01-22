@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Single Responsibility Principle (SRP)",
+    "classification": "Solid Principle",
+    "description": "A class should have only one reason to change, meaning it should have only one responsibility."
+  },
+  {
+    "name": "Open/Closed Principle (OCP)",
+    "classification": "Solid Principle",
+    "description": "A class should be open for extension but closed for modification, meaning it should be able to be extended without modifying the existing code."
+  },
+  {
+    "name": "Liskov Substitution Principle (LSP)",
+    "classification": "Solid Principle",
+    "description": "A subclass should be able to replace its superclass without affecting the correctness of the program."
+  },
+  {
+    "name": "Interface Segregation Principle (ISP)",
+    "classification": "Solid Principle",
+    "description": "A class should not be forced to implement interfaces it doesn't use, meaning it should not be required to implement methods it does not need."
+  },
+  {
+    "name": "Dependency Inversion Principle (DIP)",
+    "classification": "Solid Principle",
+    "description": "High-level modules should not depend on low-level modules, but both should depend on abstractions. This means that code should depend on interfaces or abstract classes, not on concrete implementations."
+  }
+]

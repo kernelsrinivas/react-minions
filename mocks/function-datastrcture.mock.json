@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Arrays",
+    "classification": "Data Structure",
+    "description": "A collection of elements stored in contiguous memory, accessed by index."
+  },
+  {
+    "name": "Linked Lists",
+    "classification": "Data Structure",
+    "description": "A collection of elements stored in non-contiguous memory, accessed via pointers to the next and/or previous element."
+  },
+  {
+    "name": "Stacks",
+    "classification": "Data Structure",
+    "description": "A last-in, first-out (LIFO) data structure that allows for the insertion and deletion of elements only from the top of the stack."
+  },
+  {
+    "name": "Queues",
+    "classification": "Data Structure",
+    "description": "A first-in, first-out (FIFO) data structure that allows for the insertion of elements at the back and deletion of elements from the front."
+  },
+  {
+    "name": "Trees",
+    "classification": "Data Structure",
+    "description": "A hierarchical data structure where each element (node) has zero or more child elements, with one element designated as the root and the remaining elements as branches and leaves."
+  },
+  {
+    "name": "Graphs",
+    "classification": "Data Structure",
+    "description": "A non-linear data structure consisting of nodes (vertices) and edges, used to model relationships between data."
+  },
+  {
+    "name": "Hash Tables",
+    "classification": "Data Structure",
+    "description": "A data structure that uses a hash function to map keys to indices in an array, allowing for efficient insertion, deletion and lookup of elements."
+  },
+  {
+    "name": "Sets",
+    "classification": "Data Structure",
+    "description": "A collection of unique elements, with efficient methods for adding, removing and checking for the presence of elements."
+  },
+  {
+    "name": "Heaps",
+    "classification": "Data Structure",
+    "description": "A specialized tree data structure where each parent node is either greater than or equal to (max-heap) or less than or equal to (min-heap) its children."
+  }
+]

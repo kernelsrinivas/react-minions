@@ -1,0 +1,727 @@
+[
+  {
+    "name": "Function Declarations",
+    "classification": "Function Type",
+    "description": "These are defined using the 'function' keyword followed by the function name, and are hoisted to the top of their scope."
+  },
+  {
+    "name": "Function Expressions",
+    "classification": "Function Type",
+    "description": "These are defined using a variable assignment and are not hoisted."
+  },
+  {
+    "name": "Arrow Functions",
+    "classification": "Function Type",
+    "description": "A shorthand syntax for defining functions, introduced in ECMAScript 6."
+  },
+  {
+    "name": "Generator Functions",
+    "classification": "Function Type",
+    "description": "JavaScript functions that can be paused and resumed using the 'yield' keyword."
+  },
+  {
+    "name": "Async Functions",
+    "classification": "Function Type",
+    "description": "JavaScript functions that can run asynchronously using the 'await' keyword."
+  },
+  {
+    "name": "Recursive Function",
+    "classification": "Function Type",
+    "description": "JavaScript function that call itself"
+  },
+  {
+    "name": "Callback Function",
+    "classification": "Function Type",
+    "description": "JavaScript function that passed as an argument to another function, which will call the passed function."
+  },
+  {
+    "name": "Pure functions",
+    "classification": "Function Type",
+    "description": "These are functions that always return the same output for a given input and do not cause any side-effects."
+  },
+  {
+    "name": "Higher-order functions",
+    "classification": "Function Type",
+    "description": "These are functions that take one or more functions as input and/or return a function as output."
+  },
+  {
+    "name": "Anonymous functions",
+    "classification": "Function Type",
+    "description": "These are functions without a name, often used as arguments to higher-order functions or as closures."
+  },
+  {
+    "name": "Curried functions",
+    "classification": "Function Type",
+    "description": "These are functions that can be called with fewer arguments than they are defined with, returning a new function that takes the remaining arguments."
+  },
+  {
+    "name": "Composition functions",
+    "classification": "Function Type",
+    "description": "These are functions that combined multiple functions to perform a specific task."
+  },
+  {
+    "name": "Recursive functions",
+    "classification": "Function Type",
+    "description": "These are functions that call themselves, allowing for a more compact and elegant solution to certain classifications of problems."
+  },
+  {
+    "name": "Memoization",
+    "classification": "Function Type",
+    "description": "These are functions that remember the results of previous function calls and return the cached results instead of re-computing them."
+  },
+  {
+    "name": "Lazy evaluation",
+    "classification": "Function Type",
+    "description": "These are functions that delay the evaluation of an expression until it's needed."
+  },
+  {
+    "name": "Partial application",
+    "classification": "Function Type",
+    "description": "These are functions that fix some of the arguments of a function, returning a new function with fewer arguments."
+  },
+  {
+    "name": "Point-free style",
+    "classification": "Function Type",
+    "description": "These are functions that are defined without explicitly referencing the arguments they take in."
+  },
+  {
+    "name": "Functor",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'map' function and can be used with higher-order functions like 'map', 'filter', 'reduce'."
+  },
+  {
+    "name": "Monad",
+    "classification": "Function Type",
+    "description": "These are objects that implement 'map' and 'flatMap' functions and can be used for sequencing and chaining of computation."
+  },
+  {
+    "name": "Transducer",
+    "classification": "Function Type",
+    "description": "These are functions that can be composed with 'map', 'filter', 'reduce' to perform complex data transformation."
+  },
+  {
+    "name": "Continuation-passing style (CPS)",
+    "classification": "Function Type",
+    "description": "These are functions that take a callback  function as an argument and call it with their result, allowing for more control over the flow of execution."
+  },
+  {
+    "name": "Monoid",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'concat' function and an identity value, and can be used for combining and reducing collections of data."
+  },
+  {
+    "name": "Semigroup",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'concat' function, but don't have an identity value."
+  },
+  {
+    "name": "Foldable",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'fold' function and can be used for reducing collections of data."
+  },
+  {
+    "name": "Traversable",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'traverse' function and can be used for traversing and mapping over nested data structures."
+  },
+  {
+    "name": "Comonad",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'extract' and 'duplicate' function and can be used for extracting and duplicating data in a context."
+  },
+  {
+    "name": "Endofunctor",
+    "classification": "Function Type",
+    "description": "These are objects that implement a 'map' function and preserve the structure of the original data while applying a transformation."
+  },
+  {
+    "name": "Natural Transformation",
+    "classification": "Function Type",
+    "description": "These are functions that preserve the structure of the original data while applying a transformation between two functors."
+  },
+  {
+    "name": "Co-/Contra-variant Functor",
+    "classification": "Function Type",
+    "description": "These are functors that have different behavior depending on whether the transformation is covariant or contravariant."
+  },
+  {
+    "name": "Category",
+    "classification": "Function Type",
+    "description": "These are mathematical structures that consist of objects and morphisms between them, with certain properties like composition and identity."
+  },
+  {
+    "name": "Builder pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of complex objects with a step-by-step process."
+  },
+  {
+    "name": "Facade pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a simplified interface to a complex system."
+  },
+  {
+    "name": "Bridge pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the separation of an object's interface from its implementation."
+  },
+  {
+    "name": "Chain of Responsibility pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a chain of objects that can handle a request, with the option to pass the request to the next object in the chain."
+  },
+  {
+    "name": "Interpreter pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a language or notation for a particular domain."
+  },
+  {
+    "name": "Template Method pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a skeleton algorithm in a base class, with the option to override certain steps in derived classes."
+  },
+  {
+    "name": "Flyweight pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the efficient use of memory by sharing objects that are identical."
+  },
+  {
+    "name": "Memento pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that can save and restore the previous state of an object."
+  },
+  {
+    "name": "Proxy pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of an object that controls access to another object."
+  },
+  {
+    "name": "Composite pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that can be treated as a single object or a collection of objects."
+  },
+  {
+    "name": "Module pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of private and public methods and variables within a single object, keeping the global scope clean."
+  },
+  {
+    "name": "Singleton pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of a single, shared instance of an object, ensuring that only one instance of a particular class exists in a system."
+  },
+  {
+    "name": "Observer pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that can be observed by other objects, allowing for updates and changes to be communicated throughout the system."
+  },
+  {
+    "name": "Factory pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects without specifying the exact class of object that will be created."
+  },
+  {
+    "name": "Decorator pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the modification of an object's behavior by wrapping it with another object."
+  },
+  {
+    "name": "Command pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that encapsulate a command, which can be executed at a later time."
+  },
+  {
+    "name": "Protoclassification pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of new objects by copying an existing object."
+  },
+  {
+    "name": "Mediator pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that act as a mediator between other objects, controlling and coordinating communication between them."
+  },
+  {
+    "name": "State pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that change their behavior based on their internal state."
+  },
+  {
+    "name": "Adapter pattern",
+    "classification": "Design pattern",
+    "description": "This pattern allows for the creation of objects that adapt one interface to be used with another."
+  },
+  {
+    "name": "Arrays",
+    "classification": "Data Structure",
+    "description": "A collection of elements stored in contiguous memory, accessed by index."
+  },
+  {
+    "name": "Linked Lists",
+    "classification": "Data Structure",
+    "description": "A collection of elements stored in non-contiguous memory, accessed via pointers to the next and/or previous element."
+  },
+  {
+    "name": "Stacks",
+    "classification": "Data Structure",
+    "description": "A last-in, first-out (LIFO) data structure that allows for the insertion and deletion of elements only from the top of the stack."
+  },
+  {
+    "name": "Queues",
+    "classification": "Data Structure",
+    "description": "A first-in, first-out (FIFO) data structure that allows for the insertion of elements at the back and deletion of elements from the front."
+  },
+  {
+    "name": "Trees",
+    "classification": "Data Structure",
+    "description": "A hierarchical data structure where each element (node) has zero or more child elements, with one element designated as the root and the remaining elements as branches and leaves."
+  },
+  {
+    "name": "Graphs",
+    "classification": "Data Structure",
+    "description": "A non-linear data structure consisting of nodes (vertices) and edges, used to model relationships between data."
+  },
+  {
+    "name": "Hash Tables",
+    "classification": "Data Structure",
+    "description": "A data structure that uses a hash function to map keys to indices in an array, allowing for efficient insertion, deletion and lookup of elements."
+  },
+  {
+    "name": "Sets",
+    "classification": "Data Structure",
+    "description": "A collection of unique elements, with efficient methods for adding, removing and checking for the presence of elements."
+  },
+  {
+    "name": "Heaps",
+    "classification": "Data Structure",
+    "description": "A specialized tree data structure where each parent node is either greater than or equal to (max-heap) or less than or equal to (min-heap) its children."
+  },
+  {
+    "name": "Sorting Algorithms",
+    "description": "Algorithms used to rearrange elements in a collection into a specific order, such as Bubble sort, quicksort, mergesort, etc.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Searching Algorithms",
+    "description": "Algorithms used to locate specific elements in a collection, such as linear search, binary search, etc.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Recursion Algorithms",
+    "description": "A technique where a function calls itself to solve a problem, often used for traversing data structures like trees and graphs.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Dynamic Programming Algorithms",
+    "description": "A technique where a problem is broken down into smaller subproblems, and the solutions to these subproblems are cached to avoid redundant computation.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Divide and Conquer Algorithms",
+    "description": "A technique where a problem is broken down into smaller subproblems, and the solutions to these subproblems are combined to solve the original problem.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Greedy Algorithms",
+    "description": "A technique where a problem is solved by making locally optimal choices at each step, with the hope of finding a globally optimal solution.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Backtracking Algorithms",
+    "description": "A technique where a problem is solved by trying different solutions and undoing invalid choices, often used for problems like permutations, combinations, and puzzles.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Breadth-First Search (BFS) Algorithms",
+    "description": "An algorithm that explores all the nodes in a graph or tree by visiting all the siblings before visiting children, used for finding the shortest path.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Depth-First Search (DFS) Algorithms",
+    "description": "An algorithm that explores all the nodes in a graph or tree by visiting children before visiting siblings, used for finding a path or a cycle.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "A* Algorithm",
+    "description": "A search algorithm that uses a heuristic function to estimate the cost of reaching the goal state, used for finding the shortest path in a graph or map.",
+    "classification": "Algorithms"
+  },
+  {
+    "name": "Bubble Sort",
+    "description": "A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.",
+    "classification": "Exchange Sort"
+  },
+  {
+    "name": "Selection Sort",
+    "description": "A simple sorting algorithm that repeatedly finds the minimum element from unsorted part and puts it at the beginning.",
+    "classification": "Selection Sort"
+  },
+  {
+    "name": "Insertion Sort",
+    "description": "A simple sorting algorithm that builds the final sorted array (or list) one item at a time.",
+    "classification": "Insertion Sort"
+  },
+  {
+    "name": "Quick Sort",
+    "description": "A divide and conquer algorithm that selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.",
+    "classification": "Divide and Conquer Sort"
+  },
+  {
+    "name": "Merge Sort",
+    "description": "A divide and conquer algorithm that divides an array into two halves, sorts the two halves independently, and then merges the sorted halves back together.",
+    "classification": "Divide and Conquer Sort"
+  },
+  {
+    "name": "Heap Sort",
+    "description": "A comparison-based sorting algorithm that builds a heap from the array and then repeatedly extracts the maximum element from the heap and places it at the end of the sorted array.",
+    "classification": "Comparison Sort"
+  },
+  {
+    "name": "Radix Sort",
+    "description": "A non-comparison based sorting algorithm that sorts data with integer keys by grouping keys by the individual digits which share the same significant position and value",
+    "classification": "Integer Sort"
+  },
+  {
+    "name": "Bucket Sort",
+    "description": "A sorting algorithm that distributes elements into a number of buckets, and then sort these buckets individually, either using a different sorting algorithm or by recursively applying the bucket sorting algorithm.",
+    "classification": "Distribution Sort"
+  },
+  {
+    "name": "Counting Sort",
+    "description": "A non-comparison based sorting algorithm that sorts data with integer keys by counting the number of occurrences of each key and then creating an output array.",
+    "classification": "Integer Sort"
+  },
+  {
+    "name": "Tim Sort",
+    "description": "A hybrid sorting algorithm that combines Insertion Sort and Merge Sort to efficiently sort large data sets.",
+    "classification": "Hybrid Sort"
+  },
+  {
+    "name": "Shell Sort",
+    "description": "An in-place comparison-based sorting algorithm that improves the efficiency of Insertion Sort by comparing elements that are far apart, rather than adjacent.",
+    "classification": "Comparison Sort"
+  },
+  {
+    "name": "Pigeonhole Sort",
+    "description": "A non-comparison based sorting algorithm that sorts data with a small range of integers by putting each element into a pigeonhole corresponding to its value.",
+    "classification": "Integer Sort"
+  },
+  {
+    "name": "Cocktail Sort",
+    "description": "A variation of Bubble sort that repeatedly moves the largest element to the end of the array and the smallest element to the beginning.",
+    "classification": "Exchange Sort"
+  },
+  {
+    "name": "Gnome Sort",
+    "description": "A simple sorting algorithm that compares each element to its previous element and swaps them if they are in the wrong order.",
+    "classification": "Insertion Sort"
+  },
+  {
+    "name": "Cycle Sort",
+    "description": "An in-place and stable sorting algorithm that repeatedly selects the next element to be sorted and places it at its correct position.",
+    "classification": "Exchange Sort"
+  },
+  {
+    "name": "Linear Search",
+    "description": "A simple searching algorithm that sequentially checks each element of the list until a match is found.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Binary Search",
+    "description": "A divide and conquer searching algorithm that repeatedly divides the list in half until a match is found.",
+    "classification": "Divide and Conquer Searching Algorithm"
+  },
+  {
+    "name": "Jump Search",
+    "description": "A linear time searching algorithm that improves on linear search by jumping ahead a fixed number of steps before checking each element.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Interpolation Search",
+    "description": "A searching algorithm that uses the value of the target element to estimate its position in the list and narrow down the search.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Exponential Search",
+    "description": "A searching algorithm that combines the advantages of both binary search and linear search by first checking the range where the target element is likely to be and then using binary search to find the target.",
+    "classification": "Hybrid Searching Algorithm"
+  },
+  {
+    "name": "Ternary Search",
+    "description": "A divide and conquer searching algorithm that repeatedly divides the list into three parts and checks if the target element is in the middle or the left or the right part.",
+    "classification": "Divide and Conquer Searching Algorithm"
+  },
+  {
+    "name": "Fibonacci Search",
+    "description": "A searching algorithm that uses the Fibonacci series to narrow down the search by eliminating elements that are not likely to contain the target element.",
+    "classification": "Simple Searching Algorithm"
+  },
+  {
+    "name": "Factorial",
+    "description": "A recursion algorithm that finds the factorial of a given number, typically represented as n!",
+    "classification": "Mathematical Algorithm"
+  },
+  {
+    "name": "Fibonacci Series",
+    "description": "A recursion algorithm that generates the Fibonacci series, typically represented as 0,1,1,2,3,5,8,13,...",
+    "classification": "Mathematical Algorithm"
+  },
+  {
+    "name": "Tower of Hanoi",
+    "description": "A recursion algorithm that solves the problem of moving a set of disks between three rods, with the constraint that a larger disk can never be placed on top of a smaller disk.",
+    "classification": "Problem Solving Algorithm"
+  },
+  {
+    "name": "Binary Search",
+    "description": "A divide and conquer algorithm that repeatedly divides the list in half until the target element is found",
+    "classification": "Searching Algorithm"
+  },
+  {
+    "name": "Backtracking",
+    "description": "A recursion algorithm that explores all possible solutions by incrementally building up a solution and then undoing the last step if the solution is not valid.",
+    "classification": "Problem Solving Algorithm"
+  },
+  {
+    "name": "Divide and Conquer",
+    "description": "A recursion algorithm that breaks down a problem into smaller sub-problems and solves them independently before combining the solutions to the sub-problems to solve the original problem.",
+    "classification": "Problem Solving Algorithm"
+  },
+  {
+    "name": "Memoization",
+    "description": "A recursion algorithm that uses a cache to store the results of previous function calls, so that if the function is called again with the same inputs, the cached result can be returned instead of re-computing the result.",
+    "classification": "Optimization Technique"
+  },
+  {
+    "name": "Fibonacci Series",
+    "description": "An algorithm that uses dynamic programming to efficiently calculate the n-th Fibonacci number by storing the results of previous calculations in an array and using them to calculate the next number.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Longest Common Subsequence",
+    "description": "An algorithm that uses dynamic programming to find the longest common subsequence of two or more strings by breaking the problem down into smaller sub-problems and storing the results in a matrix.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Knapsack Problem",
+    "description": "An algorithm that uses dynamic programming to find the most valuable set of items that can be included in a knapsack of limited capacity by breaking the problem down into smaller sub-problems and storing the results in a table.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Edit Distance",
+    "description": "An algorithm that uses dynamic programming to find the minimum number of operations required to transform one string into another by breaking the problem down into smaller sub-problems and storing the results in a matrix.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Bellman-Ford Algorithm",
+    "description": "An algorithm that uses dynamic programming to find the shortest path between a source vertex and all other vertices in a graph by relaxing the edges of the graph and storing the results in an array.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Floyd Warshall Algorithm",
+    "description": "An algorithm that uses dynamic programming to find the shortest path between all pairs of vertices in a graph by breaking the problem down into smaller sub-problems and storing the results in a matrix.",
+    "classification": "Dynamic Programming"
+  },
+  {
+    "name": "Merge Sort",
+    "description": "A sorting algorithm that divides an array into two halves, sorts the two halves independently, and then merges the sorted halves back together.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Quick Sort",
+    "description": "A sorting algorithm that selects a 'pivot' element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Binary Search",
+    "description": "A searching algorithm that repeatedly divides the list in half until the target element is found.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Karatsuba Multiplication",
+    "description": "An algorithm for multiplying two large integers that divides the problem into smaller sub-problems and recursively solves them before combining the solutions.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Strassen's Matrix Multiplication",
+    "description": "An algorithm for multiplying two matrices that divides the problem into smaller sub-problems and recursively solves them before combining the solutions.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Closest Pair of Points",
+    "description": "An algorithm that finds the closest pair of points in a set of points by dividing the problem into smaller sub-problems and recursively solving them before combining the solutions.",
+    "classification": "Divide and Conquer"
+  },
+  {
+    "name": "Kruskal's Algorithm",
+    "description": "A greedy algorithm that finds the minimum spanning tree of a graph by selecting the edges with the lowest weight and ensuring that they do not form a cycle.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Prim's Algorithm",
+    "description": "A greedy algorithm that finds the minimum spanning tree of a graph by starting with an arbitrary vertex and repeatedly selecting the edge with the lowest weight that connects the tree to a vertex not in the tree.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Huffman Coding",
+    "description": "A greedy algorithm that constructs a prefix code for a set of symbols with varying frequencies by repeatedly combining the symbols with the lowest frequencies and giving them a shorter code.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Dijkstra's Algorithm",
+    "description": "A greedy algorithm that finds the shortest path between a source vertex and all other vertices in a graph by repeatedly selecting the vertex with the lowest distance from the source.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Knapsack Problem",
+    "description": "A greedy algorithm that finds the most valuable set of items that can be included in a knapsack of limited capacity by repeatedly selecting the item with the highest value-to-weight ratio.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "Activity Selection Problem",
+    "description": "A greedy algorithm that finds the maximum number of non-overlapping activities that can be scheduled by repeatedly selecting the activity with the earliest finishing time.",
+    "classification": "Greedy Algorithms"
+  },
+  {
+    "name": "N-Queens Problem",
+    "description": "A backtracking algorithm that finds all possible ways to place n queens on a chessboard of size nxn such that no two queens attack each other.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Sudoku Solver",
+    "description": "A backtracking algorithm that solves a Sudoku puzzle by incrementally filling in the squares of the puzzle and undoing the last step if a solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Maze Solver",
+    "description": "A backtracking algorithm that finds a path through a maze by incrementally moving through the maze and undoing the last step if a solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Permutation and Combination",
+    "description": "A backtracking algorithm that generates all possible permutations and combinations of a given set of elements by incrementally building up a solution and undoing the last step if the solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Subset Sum Problem",
+    "description": "A backtracking algorithm that finds all subsets of a given set of numbers that add up to a given sum by incrementally building up a solution and undoing the last step if the solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "Knapsack Problem",
+    "description": "A backtracking algorithm that finds all possible ways to include a given set of items in a knapsack of limited capacity by incrementally building up a solution and undoing the last step if the solution is not valid.",
+    "classification": "Backtracking Algorithms"
+  },
+  {
+    "name": "BFS Traversal",
+    "description": "A BFS algorithm that visits all the nodes of a graph or tree by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Shortest Path",
+    "description": "A BFS algorithm that finds the shortest path between two nodes in a graph by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Maze Solver",
+    "description": "A BFS algorithm that finds a path through a maze by exploring the neighbor cells first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Bipartite Detection",
+    "description": "A BFS algorithm that checks whether a given graph is bipartite by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Peer to Peer Networking",
+    "description": "A BFS algorithm that finds all the reachable nodes in a peer-to-peer network by exploring the neighbor nodes first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "Web Crawler",
+    "description": "A BFS algorithm that crawls the web by exploring the neighbor pages first before moving on to the next level.",
+    "classification": "Breadth-First Search (BFS)"
+  },
+  {
+    "name": "DFS Traversal",
+    "description": "A DFS algorithm that visits all the nodes of a graph or tree by recursively exploring each branch as deeply as possible before backtracking.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Topological Sort",
+    "description": "A DFS algorithm that sorts the nodes of a directed acyclic graph by recursively visiting each node and marking it as complete only after all its dependencies have been visited.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Connected Components",
+    "description": "A DFS algorithm that finds all the connected components of an undirected graph by recursively visiting each unvisited node and marking all its reachable nodes as part of the same component.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Cycle Detection",
+    "description": "A DFS algorithm that checks whether a given graph contains a cycle by recursively visiting each node and marking it as visited and then checking if it has been visited again while traversing the graph.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Maze Solver",
+    "description": "A DFS algorithm that finds a path through a maze by recursively exploring each branch as deeply as possible before backtracking.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "Sudoku Solver",
+    "description": "A DFS algorithm that solves a Sudoku puzzle by recursively exploring each empty cell and trying out different values before backtracking when a solution is not valid.",
+    "classification": "Depth-First Search (DFS)"
+  },
+  {
+    "name": "A* Pathfinding",
+    "description": "An algorithm that finds the shortest path between two points in a grid-based environment by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Maze Solver",
+    "description": "An algorithm that finds the shortest path through a maze by combining Dijkstra's algorithm with a heuristic function that estimates the distance to the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Game AI",
+    "description": "An algorithm that provides a game AI with the ability to find the optimal path to a goal by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Map Routing",
+    "description": "An algorithm that finds the optimal route between two points on a map by combining Dijkstra's algorithm with a heuristic function that estimates the distance to the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Robotics Path Planning",
+    "description": "An algorithm that finds the optimal path for a robot to navigate to a goal by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "A* Search",
+    "description": "An algorithm that finds the shortest path from a start node to a goal node by combining Dijkstra's algorithm with a heuristic function that estimates the cost of reaching the goal.",
+    "classification": "A* Algorithm"
+  },
+  {
+    "name": "Single Responsibility Principle (SRP)",
+    "classification": "Solid Principle",
+    "description": "A class should have only one reason to change, meaning it should have only one responsibility."
+  },
+  {
+    "name": "Open/Closed Principle (OCP)",
+    "classification": "Solid Principle",
+    "description": "A class should be open for extension but closed for modification, meaning it should be able to be extended without modifying the existing code."
+  },
+  {
+    "name": "Liskov Substitution Principle (LSP)",
+    "classification": "Solid Principle",
+    "description": "A subclass should be able to replace its superclass without affecting the correctness of the program."
+  },
+  {
+    "name": "Interface Segregation Principle (ISP)",
+    "classification": "Solid Principle",
+    "description": "A class should not be forced to implement interfaces it doesn't use, meaning it should not be required to implement methods it does not need."
+  },
+  {
+    "name": "Dependency Inversion Principle (DIP)",
+    "classification": "Solid Principle",
+    "description": "High-level modules should not depend on low-level modules, but both should depend on abstractions. This means that code should depend on interfaces or abstract classes, not on concrete implementations."
+  }
+]
