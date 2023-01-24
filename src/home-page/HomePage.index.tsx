@@ -28,7 +28,7 @@ interface Props {}
 const HomePage = (props: Props): JSX.Element => {
   const onNavigateList = useCallback((data: any) =>{
     return (): void => {
-        props?.navigation?.navigate('List', data);
+        props?.navigation?.navigate('Video', data);
     }
   }, []);
   const onNavigateDetails = useCallback((data: any) =>{

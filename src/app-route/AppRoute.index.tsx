@@ -7,6 +7,7 @@ import HomePage from '../home-page/HomePage.index';
 import ListPage from '../list-page/ListPage.index';
 import LoginPage from '../login-page/LoginPage.index';
 import PaymentPage from '../payment-page/Payment.index';
+import VideoPlayer from '../video-player/VideoPlayer.index';
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,7 @@ const AppRoute = (): JSX.Element => {
           <Stack.Screen name="List" component={ListPage} />
           <Stack.Screen name="Login" component={LoginPage} />
           <Stack.Screen name="Payment" component={PaymentPage} />
+          <Stack.Screen name="Video" component={VideoPlayer} />
         </Stack.Navigator>
       </NavigationContainer>
     </View>
